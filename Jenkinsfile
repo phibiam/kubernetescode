@@ -9,7 +9,7 @@ node {
 
     stage('Build image') {
   
-       app = docker.build("phibiam/checks")
+       app = docker.build("phibiam/test")
     }
 
     stage('Test image') {
